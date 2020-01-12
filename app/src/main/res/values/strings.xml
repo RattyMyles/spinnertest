@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">spinnertest</string>
+    <string name="exampleText">Text example</string>
+    <string name="title">Default values of the text example above:</string>
+    <string name="description">Select an example above drop down to see how it edits the string above. \n The code below will show you different types of manipulations of TextView.\n</string>
+    <string name="code">Code:\ntest.setTextColor(Color.BLACK);\ntest.setTextSize(18);\ntest.setTypeface(Typeface.create(\"sans-serif-thin\", Typeface.NORMAL));                     test.setAllCaps(false);                     test.setBackgroundColor(Color.TRANSPARENT);                                           </string>
+
+
+</resources>
