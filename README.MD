@@ -2,7 +2,7 @@
 
 ## Description -
 
-This project shows some examples of how to edit the TEXTVIEW, SPINNER and SCROLLVIEW. 
+This project shows some examples of how to edit the TEXTVIEW, SPINNER and SCROLLVIEW. Through interaction of the spinner, we are changing the textview properties. 
 
 ## Current version:
   - Android Studio Version 3.5.2
