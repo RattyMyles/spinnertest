@@ -21,3 +21,28 @@ The ScrollView is a generic scrolling container that can host multiple component
 ## Screenshots:
 <img src="https://github.com/RattyMyles/spinnertest/blob/master/images/SpinnerSize.png" width="300" height="480"><img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerColor.png" width="300" height="480">
 <img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerDefault.png" width="300" height="480"><img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerCaps.png" width="300" height="480">
+
+## MainActivity.java
+
+Within this file, this is how i created the Spinner and adding the elements of the drop down menu.
+```java
+        /*
+            create the spinner(drop down list) and create an array with four elements.
+         */
+        Spinner sp = (Spinner) findViewById(R.id.test_spinner);
+        ArrayAdapter<String> aa = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, new
+                String[]{"default","size", "color", "caps",});
+        sp.setAdapter(aa);
+```
+It is worth mentioning the code below, this is how I pulled the spinner and managed to select an item in the array by Strings.
+```java
+public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                // due to the drop down being Strings, below will get selected item and checks if it equals to string
+                Spinner spinner = (Spinner)findViewById(R.id.test_spinner);
+                String text = spinner.getSelectedItem().toString();
+                TextView test = findViewById(R.id.textView);
+                if(text == "default"){\\ do stuff here }
+```
+
+## Main_activity.xml
+If you are interested in the style of the app, you can always take a look at the XML file.
