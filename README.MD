@@ -19,7 +19,5 @@ In Android, TextView displays text to the user and optionally allows them to edi
 The ScrollView is a generic scrolling container that can host multiple components and views. The scrollable items need not be homogeneous, and you can scroll both vertically and horizontally (by setting the horizontal property).
 
 ## Screenshots:
-<img src="https://github.com/RattyMyles/spinnertest/blob/master/images/SpinnerSize.png" width="300" height="480">
-<img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerColor.png" width="300" height="480">
-<img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerDefault.png" width="300" height="480">
-<img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerCaps.png" width="300" height="480">
+<img src="https://github.com/RattyMyles/spinnertest/blob/master/images/SpinnerSize.png" width="300" height="480"><img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerColor.png" width="300" height="480">
+<img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerDefault.png" width="300" height="480"><img src="https://github.com/RattyMyles/spinnertest/blob/master/images/spinnerCaps.png" width="300" height="480">
